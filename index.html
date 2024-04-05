@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+<style>
+h1 {
+	text-align: center;
+}
+#layout{
+	width: auto;
+	height: 600px;
+}
+#banner
+{
+	width: auto;
+	height: 100px;
+	background-color: #8967ff;
+}
+#menu
+{
+	width: auto;
+	height: 50px;
+	background-color: whiteblue;
+}	
+#content
+{
+	width: auto;
+	height: 400px;
+	background-color: cyan;
+}
+#footer
+{
+	width: auto;
+	height: 50px;
+	background-color: darkcyan;
+}
+.dropdown
+{
+	display: inline-block;
+	position: relative;
+}
+.dropdown-content
+{
+	display:none;
+	position: absolute;
+}
+.dropdown:hover .dropdown-content
+{
+	display: block;
+	position: absolute;
+	color: white;
+}
+.dropdown-content a
+{
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+
+
+}
+.dropbtn 
+{
+	border: none;
+	background-color: whitegrey;
+	font-size: 18px;
+	width: 100px;
+	height: 50px;
+}
+.dropbtn:hover
+{
+	background-color:white ;
+}
+.dropdown-content a:hover
+{
+	background-color: white;
+	color: black;
+}
+</style>
+</head>
+<body>
+<div id="layout">
+<div id="banner">
+<h1></h1>
+</div>
+<div id="menu">
+<div class="dropdown">
+<button class="dropbtn">home</button>	
+</div>
+<div class="dropdown">
+<button class="dropbtn">parmission</button>
+<div class="dropdown-content">
+<a href="fmcl.php">new parmission</a>
+<a href="fmms.php"> view parmission</a>
+</div>
+</div>
+</div>
+<div id="content">
+	
+</div>
+<div id="footer"></div>
+</div>
+</body>
+</html>
